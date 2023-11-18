@@ -1,19 +1,19 @@
 //
-//  ViewController.swift
+//  BaseViewController.swift
 //  TianSources
 //
-//  Created by Trần Chí Thiện on 10/07/2022.
-//
+//  Created by Trần Chí Thiện on 11/07/2022.
+//Check Internet
+//show toast
+
 
 import UIKit
 
-class ViewController: UIViewController {
+class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
-
 }
-
