@@ -76,7 +76,9 @@ class TAMainViewController: BaseViewController {
         
         self.models.append(Section(title: "Custom", options: [
             .staticCell(model: SettingOptions(title: "Notification", icon: UIImage(systemName: "bell.badge.fill"), bacgroundColor: .systemPink, handler: {
-                print("Tapped first Cell")
+                let vc = TATextFieldViewController()
+                
+                self.navigationController?.pushViewController(vc, animated: false)
             })),
             .staticCell(model: SettingOptions(title: "Sounds", icon: UIImage(systemName: "speaker.wave.3.fill"), bacgroundColor: .systemPink, handler: {
                 

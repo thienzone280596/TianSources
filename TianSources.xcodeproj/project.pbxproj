@@ -14,6 +14,11 @@
 		6E4A67702B08ED460040A136 /* TAExtension+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4A676F2B08ED460040A136 /* TAExtension+UIImageView.swift */; };
 		6E4A67722B08EDD40040A136 /* TAExtensionDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4A67712B08EDD40040A136 /* TAExtensionDevice.swift */; };
 		6E4D34E3287F276900E88D45 /* TAButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D34E2287F276900E88D45 /* TAButtonCustom.swift */; };
+		6E5717812B4110A3007181A3 /* TATextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5717802B4110A3007181A3 /* TATextFieldViewController.swift */; };
+		6E5717832B4112CA007181A3 /* TAFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5717822B4112CA007181A3 /* TAFloatingTextfield.swift */; };
+		6E5717852B411306007181A3 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5717842B411306007181A3 /* AppColors.swift */; };
+		6E5717872B411365007181A3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5717862B411365007181A3 /* Colors.xcassets */; };
+		6E5717892B41142A007181A3 /* TAExtension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5717882B41142A007181A3 /* TAExtension+UIColor.swift */; };
 		6EA8E039287B3C7800FC2B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA8E038287B3C7800FC2B13 /* AppDelegate.swift */; };
 		6EA8E03B287B3C7800FC2B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA8E03A287B3C7800FC2B13 /* SceneDelegate.swift */; };
 		6EA8E03D287B3C7800FC2B13 /* TAMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA8E03C287B3C7800FC2B13 /* TAMainViewController.swift */; };
@@ -64,6 +69,11 @@
 		6E4A676F2B08ED460040A136 /* TAExtension+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TAExtension+UIImageView.swift"; sourceTree = "<group>"; };
 		6E4A67712B08EDD40040A136 /* TAExtensionDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAExtensionDevice.swift; sourceTree = "<group>"; };
 		6E4D34E2287F276900E88D45 /* TAButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAButtonCustom.swift; sourceTree = "<group>"; };
+		6E5717802B4110A3007181A3 /* TATextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TATextFieldViewController.swift; sourceTree = "<group>"; };
+		6E5717822B4112CA007181A3 /* TAFloatingTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAFloatingTextfield.swift; sourceTree = "<group>"; };
+		6E5717842B411306007181A3 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		6E5717862B411365007181A3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		6E5717882B41142A007181A3 /* TAExtension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TAExtension+UIColor.swift"; sourceTree = "<group>"; };
 		6EA8E035287B3C7800FC2B13 /* TianSources.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TianSources.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA8E038287B3C7800FC2B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EA8E03A287B3C7800FC2B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +141,8 @@
 				6E4A676D2B08EC340040A136 /* TAExtension+UIViewController.swift */,
 				6E4A676F2B08ED460040A136 /* TAExtension+UIImageView.swift */,
 				6E4A67712B08EDD40040A136 /* TAExtensionDevice.swift */,
+				6E5717842B411306007181A3 /* AppColors.swift */,
+				6E5717882B41142A007181A3 /* TAExtension+UIColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -143,6 +155,15 @@
 				6ECA34C928BC785F00DC4708 /* TATwoLineButton.swift */,
 			);
 			path = TAButton;
+			sourceTree = "<group>";
+		};
+		6E57177F2B41106E007181A3 /* TATextField */ = {
+			isa = PBXGroup;
+			children = (
+				6E5717802B4110A3007181A3 /* TATextFieldViewController.swift */,
+				6E5717822B4112CA007181A3 /* TAFloatingTextfield.swift */,
+			);
+			path = TATextField;
 			sourceTree = "<group>";
 		};
 		6EA8E02C287B3C7800FC2B13 = {
@@ -179,6 +200,7 @@
 				6EA8E041287B3C7A00FC2B13 /* Assets.xcassets */,
 				6EA8E043287B3C7A00FC2B13 /* LaunchScreen.storyboard */,
 				6EA8E046287B3C7A00FC2B13 /* Info.plist */,
+				6E5717862B411365007181A3 /* Colors.xcassets */,
 			);
 			path = TianSources;
 			sourceTree = "<group>";
@@ -217,6 +239,7 @@
 		6EA8E06D287B3D7C00FC2B13 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6E57177F2B41106E007181A3 /* TATextField */,
 				6ECA34CB28BCAFDB00DC4708 /* TAToastNotification */,
 				6E4D34E1287F274800E88D45 /* TAButton */,
 				6EA8E07A287B415B00FC2B13 /* TALauncherViewController */,
@@ -438,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EA8E045287B3C7A00FC2B13 /* LaunchScreen.storyboard in Resources */,
+				6E5717872B411365007181A3 /* Colors.xcassets in Resources */,
 				6EA8E042287B3C7A00FC2B13 /* Assets.xcassets in Resources */,
 				6EA8E081287B47C600FC2B13 /* Main.storyboard in Resources */,
 			);
@@ -573,13 +597,17 @@
 				6ECA34CA28BC785F00DC4708 /* TATwoLineButton.swift in Sources */,
 				6EA8E039287B3C7800FC2B13 /* AppDelegate.swift in Sources */,
 				6E4A67702B08ED460040A136 /* TAExtension+UIImageView.swift in Sources */,
+				6E5717832B4112CA007181A3 /* TAFloatingTextfield.swift in Sources */,
 				6E4A676C2B08EBF20040A136 /* TAExtension+UIFont.swift in Sources */,
 				6EA8E06B287B3CA000FC2B13 /* SwitchTableViewCell.swift in Sources */,
 				6EA8E06A287B3CA000FC2B13 /* SettingTableViewCell.swift in Sources */,
 				6EA8E07C287B419100FC2B13 /* TALauncherViewController.swift in Sources */,
 				6EA8E07E287B42BD00FC2B13 /* BaseViewController.swift in Sources */,
+				6E5717812B4110A3007181A3 /* TATextFieldViewController.swift in Sources */,
 				6E4A676E2B08EC340040A136 /* TAExtension+UIViewController.swift in Sources */,
+				6E5717892B41142A007181A3 /* TAExtension+UIColor.swift in Sources */,
 				6EFFAB3628BCC2A600DB6423 /* TASnackbarView.swift in Sources */,
+				6E5717852B411306007181A3 /* AppColors.swift in Sources */,
 				6ECA34C828BC784000DC4708 /* TAIconTextButton.swift in Sources */,
 				6E4A676A2B08EBA10040A136 /* TAExtension+UIView.swift in Sources */,
 				6E4A67722B08EDD40040A136 /* TAExtensionDevice.swift in Sources */,
